@@ -32,19 +32,19 @@ class FirstViewController: UIViewController {
         
     }
     @IBAction func swipeToRight(_ sender: UISwipeGestureRecognizer) {
-        if(updateCounter < 3) {
-            updateCounter = updateCounter + 1
+        if(updateCounter > 1){
+            updateCounter = updateCounter - 1
         } else {
-            updateCounter = 1
+            updateCounter = 3
         }
         updateImage()
     }
     
     @IBAction func swipeToLeft(_ sender: UISwipeGestureRecognizer) {
-        if(updateCounter > 1){
-            updateCounter = updateCounter - 1
+        if(updateCounter < 3) {
+            updateCounter = updateCounter + 1
         } else {
-            updateCounter = 3
+            updateCounter = 1
         }
         updateImage()
     }

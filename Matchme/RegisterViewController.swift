@@ -17,11 +17,21 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var Password: UITextField!
     
     @IBOutlet weak var ConfirmPW: UITextField!
-   
+    
+    var db: SQLiteDB!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
         
+        super.viewDidLoad()
         self.SignUp.layer.cornerRadius = 9
+        
+        db = SQLiteDB.shared
+        _ = db.openDB()
+        
+        let result = db.execute(sql: "create table if not exists user(uid integer primary key,email varchar(20),password varchar(20))")
+        
+        print(result)
+        
         
         //self.SignUp.layer.borderWidth = 2
         //self.SignUp.layer.borderColor = UIColor.red.cgColor
@@ -34,7 +44,23 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func signup(_ sender: UIButton) {
+        signUser()
+    }
+    
+    func signUser() {
+        let email = self.Email.text!
+        let password = self.Password.text!
         
+        let insert = "insert into user(email,password) values ('\(email)','\(password)')"
+        
+        print("sql: \(insert)")
+        
+        let result = db.execute(sql: insert)
+        print(result)
+        
+        let check = "select * from user"
+        let output = db.query(sql: check)
+        print(output)
     }
 
     /*

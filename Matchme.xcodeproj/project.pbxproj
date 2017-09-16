@@ -56,14 +56,11 @@
 		78D801971F43E6410000057A /* rightarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D801961F43E6410000057A /* rightarrow@2x.png */; };
 		CB353E621F66471A0062BCDC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB353E611F66471A0062BCDC /* libsqlite3.tbd */; };
 		CB353E671F6660D70062BCDC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB353E661F6660D70062BCDC /* libsqlite3.0.tbd */; };
-		CB353E6B1F6661730062BCDC /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB353E691F6661730062BCDC /* SQLiteDB.swift */; };
-		CB353E6C1F6661730062BCDC /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB353E6A1F6661730062BCDC /* SQLTable.swift */; };
 		CB522D431F5D1B620006EB86 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB522D421F5D1B620006EB86 /* FirstViewController.swift */; };
 		CB6C64FA1F6CF6B200DDB8AF /* t1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6C64F71F6CF6B100DDB8AF /* t1.png */; };
 		CB6C64FB1F6CF6B200DDB8AF /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6C64F81F6CF6B200DDB8AF /* t2.png */; };
 		CB6C64FC1F6CF6B200DDB8AF /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6C64F91F6CF6B200DDB8AF /* t3.png */; };
 		CB7ED10D1F45527000C01F25 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7ED10C1F45527000C01F25 /* User.swift */; };
-		CBAA47811F5CF54300A5E4FC /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA47801F5CF54300A5E4FC /* DataAccess.swift */; };
 		CBAC2D671F25941400A31133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC2D661F25941400A31133 /* AppDelegate.swift */; };
 		CBAC2D691F25941400A31133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC2D681F25941400A31133 /* ViewController.swift */; };
 		CBAC2D6C1F25941400A31133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAC2D6A1F25941400A31133 /* Main.storyboard */; };
@@ -72,6 +69,9 @@
 		CBAC2D871F25941400A31133 /* MatchmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC2D861F25941400A31133 /* MatchmeUITests.swift */; };
 		CBE5BA2D1F52A36100C87870 /* yoububblew@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE5BA2C1F52A36100C87870 /* yoububblew@2x.png */; };
 		CBE5BA2F1F52A36800C87870 /* redbu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE5BA2E1F52A36800C87870 /* redbu@2x.png */; };
+		CBFB47421F6D138E00F8B6FB /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB47401F6D138E00F8B6FB /* SQLiteDB.swift */; };
+		CBFB47431F6D138E00F8B6FB /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFB47411F6D138E00F8B6FB /* SQLTable.swift */; };
+		CBFB47451F6D173900F8B6FB /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = CBFB47441F6D173900F8B6FB /* data.db */; };
 		EC07630C1F48209E0072D1F3 /* love7_1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC07630B1F48209E0072D1F3 /* love7_1242x2208.jpg */; };
 		EC07630E1F4820A20072D1F3 /* love6_1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC07630D1F4820A20072D1F3 /* love6_1242x2208.jpg */; };
 		EC0763101F4820A60072D1F3 /* women2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC07630F1F4820A60072D1F3 /* women2@2x.png */; };
@@ -151,15 +151,11 @@
 		78D801961F43E6410000057A /* rightarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightarrow@2x.png"; sourceTree = "<group>"; };
 		CB353E611F66471A0062BCDC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		CB353E661F6660D70062BCDC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		CB353E691F6661730062BCDC /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
-		CB353E6A1F6661730062BCDC /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
-		CB353E6D1F66619F0062BCDC /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		CB522D421F5D1B620006EB86 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CB6C64F71F6CF6B100DDB8AF /* t1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t1.png; sourceTree = "<group>"; };
 		CB6C64F81F6CF6B200DDB8AF /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t2.png; sourceTree = "<group>"; };
 		CB6C64F91F6CF6B200DDB8AF /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t3.png; sourceTree = "<group>"; };
 		CB7ED10C1F45527000C01F25 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		CBAA47801F5CF54300A5E4FC /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
 		CBAC2D631F25941400A31133 /* Matchme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAC2D661F25941400A31133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBAC2D681F25941400A31133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +171,10 @@
 		CBAC2D881F25941400A31133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE5BA2C1F52A36100C87870 /* yoububblew@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yoububblew@2x.png"; sourceTree = "<group>"; };
 		CBE5BA2E1F52A36800C87870 /* redbu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redbu@2x.png"; sourceTree = "<group>"; };
+		CBFB473D1F6D078300F8B6FB /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		CBFB47401F6D138E00F8B6FB /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		CBFB47411F6D138E00F8B6FB /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		CBFB47441F6D173900F8B6FB /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
 		EC07630B1F48209E0072D1F3 /* love7_1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = love7_1242x2208.jpg; sourceTree = "<group>"; };
 		EC07630D1F4820A20072D1F3 /* love6_1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = love6_1242x2208.jpg; sourceTree = "<group>"; };
 		EC07630F1F4820A60072D1F3 /* women2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "women2@2x.png"; sourceTree = "<group>"; };
@@ -223,24 +223,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CB353E681F6661290062BCDC /* SQLiteDB */ = {
-			isa = PBXGroup;
-			children = (
-				CB353E6D1F66619F0062BCDC /* Bridging-Header.h */,
-				CB353E691F6661730062BCDC /* SQLiteDB.swift */,
-				CB353E6A1F6661730062BCDC /* SQLTable.swift */,
-			);
-			name = SQLiteDB;
-			sourceTree = "<group>";
-		};
 		CB7ED10B1F45525A00C01F25 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CBFB47401F6D138E00F8B6FB /* SQLiteDB.swift */,
+				CBFB47411F6D138E00F8B6FB /* SQLTable.swift */,
 				CB7ED10C1F45527000C01F25 /* User.swift */,
 				78791D981F4C4AEF006EA54B /* ChatDataSource.swift */,
 				78791D961F4C4AA1006EA54B /* MessageItem.swift */,
 				78791D941F4C4A63006EA54B /* UserInfo.swift */,
-				CBAA47801F5CF54300A5E4FC /* DataAccess.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -303,6 +294,7 @@
 		CBA4E9CC1F45616E00EF7981 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CBAC2D661F25941400A31133 /* AppDelegate.swift */,
 				CBAC2D6F1F25941400A31133 /* LaunchScreen.storyboard */,
 				78791DA01F4C4BD7006EA54B /* TableHeaderViewCell.swift */,
 				CBAC2D6A1F25941400A31133 /* Main.storyboard */,
@@ -332,7 +324,8 @@
 		CBAC2D5A1F25941300A31133 = {
 			isa = PBXGroup;
 			children = (
-				CB353E681F6661290062BCDC /* SQLiteDB */,
+				CBFB47441F6D173900F8B6FB /* data.db */,
+				CBFB473D1F6D078300F8B6FB /* Bridging-Header.h */,
 				CBAC2D651F25941400A31133 /* Matchme */,
 				CBAC2D7A1F25941400A31133 /* MatchmeTests */,
 				CBAC2D851F25941400A31133 /* MatchmeUITests */,
@@ -358,7 +351,6 @@
 				CBA4E9CD1F45617700EF7981 /* Controller */,
 				CBA4E9CC1F45616E00EF7981 /* View */,
 				CB7ED10B1F45525A00C01F25 /* Model */,
-				CBAC2D661F25941400A31133 /* AppDelegate.swift */,
 				CBAC2D6D1F25941400A31133 /* Assets.xcassets */,
 				CBAC2D721F25941400A31133 /* Info.plist */,
 			);
@@ -532,6 +524,7 @@
 				780CAE201F408BB600385779 /* 013profile@2x.png in Resources */,
 				78791D631F4ADA0B006EA54B /* view.jpg in Resources */,
 				78791D6B1F4AE20A006EA54B /* person3.jpg in Resources */,
+				CBFB47451F6D173900F8B6FB /* data.db in Resources */,
 				CBE5BA2F1F52A36800C87870 /* redbu@2x.png in Resources */,
 				78791D691F4AE12C006EA54B /* view2.jpg in Resources */,
 				EC07631C1F4820C80072D1F3 /* 007-previous@2x.png in Resources */,
@@ -570,10 +563,8 @@
 				78791D991F4C4AEF006EA54B /* ChatDataSource.swift in Sources */,
 				78791D971F4C4AA1006EA54B /* MessageItem.swift in Sources */,
 				78791D731F4BE6DC006EA54B /* ChatViewController.swift in Sources */,
-				CB353E6B1F6661730062BCDC /* SQLiteDB.swift in Sources */,
 				78791D611F4AD935006EA54B /* ProfileViewController.swift in Sources */,
-				CB353E6C1F6661730062BCDC /* SQLTable.swift in Sources */,
-				CBAA47811F5CF54300A5E4FC /* DataAccess.swift in Sources */,
+				CBFB47431F6D138E00F8B6FB /* SQLTable.swift in Sources */,
 				78791D951F4C4A63006EA54B /* UserInfo.swift in Sources */,
 				EC0763201F482EB20072D1F3 /* matchViewController.swift in Sources */,
 				78D801851F42AFCD0000057A /* LoginViewController.swift in Sources */,
@@ -583,6 +574,7 @@
 				CBAC2D691F25941400A31133 /* ViewController.swift in Sources */,
 				78D801711F4173810000057A /* MainNavigationController.swift in Sources */,
 				78791D9F1F4C4BAD006EA54B /* TableView.swift in Sources */,
+				CBFB47421F6D138E00F8B6FB /* SQLiteDB.swift in Sources */,
 				CBAC2D671F25941400A31133 /* AppDelegate.swift in Sources */,
 				CB7ED10D1F45527000C01F25 /* User.swift in Sources */,
 			);
@@ -771,6 +763,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Will.MatchmeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matchme.app/Matchme";
 			};
@@ -785,6 +778,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Will.MatchmeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matchme.app/Matchme";
 			};

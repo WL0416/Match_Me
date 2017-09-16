@@ -95,7 +95,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATCH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuE-5C-xSl">
-                                <rect key="frame" x="183" y="97" width="59" height="24"/>
+                                <rect key="frame" x="183" y="141" width="59" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="CIX-An-Tvl"/>
                                 </constraints>
@@ -104,13 +104,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ni-q4-Ryj">
-                                <rect key="frame" x="183" y="105.99999999999999" width="60.666666666666657" height="51.666666666666643"/>
+                                <rect key="frame" x="183" y="150" width="60.666666666666657" height="51.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="GB7-Aq-zPD">
-                                <rect key="frame" x="129" y="97" width="53" height="54"/>
+                                <rect key="frame" x="129" y="141" width="53" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="53" id="f5t-H9-aEc"/>
                                     <constraint firstAttribute="height" constant="54" id="nEl-MZ-llr"/>
@@ -164,7 +164,7 @@
                         <outlet property="ConfirmPW" destination="63a-6k-SOW" id="Eyg-Pg-Bde"/>
                         <outlet property="Email" destination="FDE-ic-0Jw" id="HeK-LO-Kli"/>
                         <outlet property="Password" destination="1WT-L3-Iu3" id="VVc-Ei-vZU"/>
-                        <outlet property="SignUp" destination="Amj-i2-bQI" id="Kdg-Ao-IcK"/>
+                        <outlet property="SignUp" destination="Amj-i2-bQI" id="egN-h1-J6c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abh-0L-Z98" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -646,6 +646,6 @@
         <image name="view2.jpg" width="650" height="328"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="avW-lj-3DZ"/>
+        <segue reference="ufg-n6-7fp"/>
     </inferredMetricsTieBreakers>
 </document>

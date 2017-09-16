@@ -1,9 +1,5 @@
 //
-//  Bridging-Header.h
-//  TasksGalore
-//
-//  Created by Fahim Farook on 12/6/14.
-//  Copyright (c) 2014 RookSoft Pte. Ltd. All rights reserved.
+//  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
 #import "sqlite3.h"
